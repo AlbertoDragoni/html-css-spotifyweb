@@ -244,3 +244,38 @@ ul p {
     margin-top: 20px;
     display: flex;
 }
+.popular h3 {
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    color: white;
+    margin-left: 15px;
+}
+.popular p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    color: #b3b3b3;
+    margin-left: 15px;
+}
+.artist-cards-tre {
+    margin-top: 20px;
+    display: flex;
+}
+.first-card-round img {
+    margin-left: 10px;
+    width: 140px;
+    height: 140px;
+    border-radius: 70px;
+}
+.first-card-round .artist-link {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.first-card-round .sub-sub {
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: #b3b3b3;
+}
