@@ -27,3 +27,69 @@ main {
     height: 100vh;
     overflow-y: auto;
 }
+.logo-top {
+    margin-top: 30px;
+    margin-left: 18px;
+    color: white;
+}
+.logo-top i {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.logo-top p {
+    margin-left: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    display: inline-block;
+}
+menu {
+    display: flex;
+    flex-direction: column;
+    margin-left: 18px;
+}
+menu i {
+    font-size: 20px;
+}
+menu p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    display: inline-block;
+    margin-left: 8px;
+}
+.ms--logo {
+    margin-top: 20px;
+}
+.aggiungi-playlist {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    display: inline-block;
+}
+.aggiungi-playlist i {
+    font-size: 25px;
+    color: black;
+    margin-left: 4px;
+    margin-top: 3px;
+}
+.crea-playlist {
+    margin: 20px 0;
+}
+.crea-playlist p {
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+}
+.playlist {
+    margin-top: 20px;
+}
+.nome-playlist ul {
+    list-style-type: none;
+}
+ul li {
+    margin-top: 8px;
+    margin-left: -9px;
+}
+ul p {
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
