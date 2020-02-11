@@ -3,3 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+aside {
+    width: 180px;
+    height: 100vh;
+    background-color: #040404;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+header {
+    width: calc(100vw - 180px);
+    height: 80px;
+    background-color: #040404;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    left: 180px;
+}
+main {
+    background-color: #121212;
+    height: 100vh;
+    overflow-y: auto;
+}
