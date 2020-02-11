@@ -5,7 +5,7 @@
 }
 aside {
     width: 180px;
-    height: 100vh;
+    height: 100%;
     background-color: #040404;
     color: #b3b3b3;
     position: fixed;
@@ -210,6 +210,7 @@ ul p {
 }
 .first-card {
     width: 160px;
+    position: relative;
 }
 .first-card img {
     margin-left: 10px;
@@ -227,6 +228,16 @@ ul p {
     font-size: 10px;
     font-family: 'Poppins', sans-serif;
     color: #b3b3b3;
+}
+.fa-play-circle {
+    font-size: 40px;
+    position: absolute;
+    top: 33%; left: 35%;
+    color: white;
+    visibility: hidden;
+}
+.fa-play-circle:hover {
+    visibility: visible;
 }
 .artist-cards {
     margin-top: 20px;
@@ -279,3 +290,12 @@ ul p {
     font-family: 'Poppins', sans-serif;
     color: #b3b3b3;
 }
+/* footer */
+/* footer {
+    height: 70px;
+    width: 100vw;
+    background-color: #262626;
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    z-index: 22;
+} */
