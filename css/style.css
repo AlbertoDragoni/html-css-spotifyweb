@@ -242,6 +242,7 @@ ul p {
 .artist-cards {
     margin-top: 20px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 .for-me h3 {
