@@ -397,6 +397,12 @@ footer {
 .song-playing small {
     color: #b3b3b3;
 }
+.testament:hover img {
+    cursor: pointer;
+}
+.song-playing:hover p {
+    cursor: pointer;
+}
 @media all and (max-width: 992px) {
     .playing-now {
         display: none;
@@ -433,6 +439,10 @@ footer {
     display: inline;
     margin: 0 4px;
 }
+.player:hover {
+    cursor: pointer;
+    color: #b3b3b3;
+}
 /* right */
 .ms--folder, .device, .volume-bar {
     display: inline-block;
@@ -452,6 +462,26 @@ footer {
     background-color: #b3b3b3;
     margin: 0 0 3px 4px;
     display: inline-block;
+}
+.ms--folder i {
+    cursor: pointer;
+    color: #b3b3b3;
+}
+.device i {
+    cursor: pointer;
+    color: #b3b3b3;
+}
+.vlm-bar-icon i {
+    cursor: pointer;
+    color: #b3b3b3;
+}
+.vlm-bar-bar {
+    cursor: pointer;
+    color: #b3b3b3;
+}
+.progress-bar:hover {
+    cursor: pointer;
+    color: #b3b3b3;
 }
 @media all and (max-width: 768px) {
     .volume {
