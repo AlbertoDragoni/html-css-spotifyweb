@@ -5,7 +5,7 @@
 }
 aside {
     width: 180px;
-    height: 100%;
+    height: calc(100vh - 80px);
     background-color: #040404;
     color: #b3b3b3;
     position: fixed;
@@ -27,7 +27,7 @@ header {
 }
 main {
     background-color: #121212;
-    height: 100vh;
+    height: calc(100vh - 80px);
     padding: 80px 0 0 180px;
     overflow-y: auto;
 }
@@ -192,13 +192,13 @@ ul p {
     text-align: center;
     margin-left: 15px;
 }
-.yellow-line:hover {
+.specific-link:hover .yellow-line {
     background-color: yellow;
 }
-.yellow-line2:hover {
+.specific-link:hover .yellow-line2 {
     background-color: yellow;
 }
-.yellow-line3:hover {
+.specific-link:hover .yellow-line3 {
     background-color: yellow;
 }
 /* main content */
@@ -292,11 +292,82 @@ ul p {
     color: #b3b3b3;
 }
 /* footer */
-/* footer {
-    height: 70px;
+footer {
+    height: 80px;
     width: 100vw;
     background-color: #262626;
     position: fixed;
     bottom: 0; left: 0; right: 0;
-    z-index: 22;
-} */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* sx */
+.testament img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.song-playing {
+    display: inline-block;
+    margin-left: 10px;
+}
+.song-playing p {
+    margin-bottom: 10px;
+}
+.song-playing small {
+    color: #b3b3b3;
+}
+/* cnt */
+.player {
+    display: inline;
+    font-size: 22px;
+    margin-right: 40px;
+}
+.player.play {
+    border: 1px solid white;
+    padding: 6px;
+    border-radius: 50%;
+}
+.player.play i {
+    padding-left: 10px;
+}
+.control-bar {
+    text-align: center;
+}
+.progress-bar {
+    width: 420px;
+    height: 4px;
+    background-color: #121212;
+    margin-bottom: 2px;
+    display: inline-block;
+}
+.bar-player {
+    margin-top: 8px;
+}
+.bar-player p {
+    display: inline;
+    margin: 0 4px;
+}
+/* right */
+.ms--folder, .device, .volume-bar {
+    display: inline-block;
+}
+.ms--folder, .device {
+    margin-right: 18px;
+}
+.volume-bar {
+    margin-right: 25px;
+}
+.vlm-bar-icon {
+    display: inline-block;
+}
+.vlm-bar-bar {
+    width: 100px;
+    height: 4px;
+    background-color: #b3b3b3;
+    margin: 0 0 3px 4px;
+    display: inline-block;
+}
